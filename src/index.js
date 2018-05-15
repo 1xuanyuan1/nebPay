@@ -20,10 +20,10 @@ var defaultOptions = {
 		orderId: "",
 		ext: ""
 	},
-	qrcode: {
-		showQRCode: false,
-		container: undefined
-	},
+	// qrcode: {
+	// 	showQRCode: false,
+	// 	container: undefined
+	// },
 	// callback is the return url after payment
 	callback: config.payUrl,
 	//listener：specify a listener function to handle payment feedback message(only valid for browser extension)

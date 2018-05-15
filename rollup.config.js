@@ -13,5 +13,5 @@ export default {
     ],
     format: 'cjs',
     sourceMap: false,
-    external: [ 'bignumber.js', 'extend', 'qrcode' ]
+    external: [ 'bignumber.js', 'extend']
 };

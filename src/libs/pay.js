@@ -2,7 +2,7 @@
 
 import BigNumber from "bignumber.js"
 import Utils from "./Utils"
-import QRCode from "./qrcode"
+// import QRCode from "./qrcode"
 //var Config = require("./config");
 
 import openExtension from "./extensionUtils.js"
@@ -57,14 +57,14 @@ function openApp(params, options) {
 		var url = "openapp.NASnano://virtual?params=" + JSON.stringify(appParams);
 		window.location.href = url;
 
-		if (options.qrcode.showQRCode) {
-			showQRCode(JSON.stringify(appParams), options);
-		}
+		// if (options.qrcode.showQRCode) {
+		// 	showQRCode(JSON.stringify(appParams), options);
+		// }
 	// }
 }
 
-function showQRCode(params, options) {
-	QRCode.showQRCode(params, options.qrcode.container);
-}
+// function showQRCode(params, options) {
+// 	QRCode.showQRCode(params, options.qrcode.container);
+// }
 
 export default Pay;

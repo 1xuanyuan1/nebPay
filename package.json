@@ -1,6 +1,6 @@
 {
   "name": "nebpay",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "lib/nebPay.js",
   "minified:main": "lib/nebPay.min.js",
@@ -24,8 +24,7 @@
   "homepage": "https://github.com/1xuanyuan1/nebPay.git#readme",
   "dependencies": {
     "bignumber.js": "^5.0.0",
-    "extend": ">=3.0.1",
-    "qrcode": "^1.2.0"
+    "extend": ">=3.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
